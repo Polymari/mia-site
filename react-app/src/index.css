@@ -17,14 +17,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-bottom: 80px; /* Space for fixed bottom navigation */
+  /* Removed padding-bottom as navigation is now conditionally rendered */
 }
 
 #root {
   width: 100%;
-  max-width: 600px; /* Max width for mobile-first design */
+  /* Removed max-width for desktop-first design */
   margin: 0 auto;
   padding: 1rem;
   box-sizing: border-box;
@@ -86,12 +84,8 @@ button:focus-visible {
   background-color: #c82333;
 }
 
-/* Mobile-first adjustments */
-@media (max-width: 600px) {
-  body {
-    padding-bottom: 70px; /* Adjust for smaller navigation on mobile */
-  }
-
+/* Mobile adjustments */
+@media (max-width: 768px) {
   #root {
     padding: 0.5rem;
   }

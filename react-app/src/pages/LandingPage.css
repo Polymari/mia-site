@@ -1,0 +1,320 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Inspired by modern UI designs */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7f6; /* Light background for desktop */
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header Styles */
+.landing-header {
+  background: #ffffff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px; /* Wider for desktop */
+  margin: 0 auto;
+  padding: 0 40px; /* More padding for desktop */
+}
+
+.logo {
+  font-size: 2rem; /* Larger logo */
+  font-weight: 700;
+  color: #1a202c; /* Darker, more professional color */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px; /* Spacing between nav items */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a5568; /* Softer link color */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Highlight on hover */
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 40px; /* More vertical padding */
+  background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%); /* Subtle gradient */
+  text-align: left;
+  flex-wrap: nowrap; /* Prevent wrapping on desktop */
+  gap: 80px; /* Space between content and image */
+}
+
+.hero-content {
+  max-width: 600px; /* Increased max-width */
+}
+
+.hero-content h1 {
+  font-size: 4.5rem; /* Larger, more impactful heading */
+  margin-bottom: 25px;
+  color: #1a202c;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  font-size: 1.3rem; /* Larger paragraph text */
+  margin-bottom: 40px;
+  color: #4a5568;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+}
+
+.cta-buttons .btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 35px; /* Larger buttons */
+  border: none;
+  border-radius: 8px; /* More rounded corners */
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-buttons .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Subtle hover effect */
+}
+
+.cta-buttons .btn-secondary {
+  background-color: #e2e8f0; /* Lighter secondary button */
+  color: #2d3748;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-buttons .btn-secondary:hover {
+  background-color: #cbd5e0;
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  flex-shrink: 0;
+  width: 500px; /* Fixed width for desktop image */
+  height: 350px; /* Fixed height for desktop image */
+  background-color: #e2e8f0; /* Placeholder background */
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #718096;
+  overflow: hidden; /* Ensure image fits */
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the area */
+  border-radius: 12px;
+}
+
+/* Sections Styles */
+.features-section, .about-section, .contact-section {
+  padding: 80px 40px; /* More padding */
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px; /* Space between sections */
+}
+
+.features-section h2, .about-section h2, .contact-section h2 {
+  font-size: 3rem; /* Larger headings */
+  margin-bottom: 50px;
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Larger min-width for features */
+  gap: 40px; /* More space between features */
+}
+
+.feature-item {
+  background: #f7fafc; /* Lighter background for feature items */
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.feature-item p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px; /* Wider form */
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 15px;
+  border: 1px solid #cbd5e0; /* Softer border */
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 150px; /* Taller textarea */
+  resize: vertical;
+}
+
+.landing-footer {
+  background: #1a202c; /* Darker footer */
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 1rem;
+  margin-top: auto; /* Push footer to bottom */
+}
+
+/* Responsive adjustments (keeping some mobile adjustments but prioritizing desktop) */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    padding: 80px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .features-section, .about-section, .contact-section {
+    padding: 60px 20px;
+  }
+
+  .features-section h2, .about-section h2, .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta-buttons .btn-primary, .cta-buttons .btn-secondary {
+    width: 100%;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}

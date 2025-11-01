@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css'; // We'll create this CSS file next
 
-const Navigation = () => {
+const Navigation = ({ onLogout }) => {
   return (
     <nav className="bottom-navigation">
       <NavLink to="/" className="nav-item">
@@ -25,6 +25,10 @@ const Navigation = () => {
         <span className="nav-icon">🤝</span>
         <span className="nav-text">Konektor Pasar</span>
       </NavLink>
+      <button onClick={onLogout} className="nav-item logout-button">
+        <span className="nav-icon">🚪</span>
+        <span className="nav-text">Logout</span>
+      </button>
     </nav>
   );
 };

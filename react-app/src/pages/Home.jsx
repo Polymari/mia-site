@@ -29,7 +29,6 @@ const Home = () => {
           <p>Perluas jaringan dan pasar Anda</p>
         </Link>
       </div>
-      <Navigation />
     </div>
   );
 };
