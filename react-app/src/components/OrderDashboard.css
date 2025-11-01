@@ -1,0 +1,83 @@
+.order-dashboard-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.order-dashboard-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.order-dashboard-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.order-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.order-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  text-align: left;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-header h4 {
+  margin: 0;
+  color: #333;
+}
+
+.order-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.status-new {
+  background-color: #ffc107; /* Yellow */
+  color: #333;
+}
+
+.status-ready {
+  background-color: #17a2b8; /* Cyan */
+  color: white;
+}
+
+.status-completed {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+.order-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.order-actions {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.order-actions select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  cursor: pointer;
+}

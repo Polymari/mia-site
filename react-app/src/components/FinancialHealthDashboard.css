@@ -1,0 +1,80 @@
+.financial-health-dashboard-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.financial-health-dashboard-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.financial-health-dashboard-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.feasibility-score-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.feasibility-score-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.score-display {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.score-high {
+  background-color: #d4edda;
+  color: #28a745;
+}
+
+.score-medium {
+  background-color: #fff3cd;
+  color: #ffc107;
+}
+
+.score-low {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.financial-tips {
+  background-color: #e6f7ff;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.financial-tips h3 {
+  color: #007bff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.financial-tips ul {
+  list-style: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.financial-tips li {
+  margin-bottom: 5px;
+  color: #333;
+}

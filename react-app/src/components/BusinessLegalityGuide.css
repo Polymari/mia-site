@@ -1,0 +1,63 @@
+.business-legality-guide-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.business-legality-guide-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.business-legality-guide-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.legality-step-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.legality-step-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.legality-step-card .step-content {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.legality-step-card button {
+  width: auto;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.navigation-buttons .btn-secondary {
+  background-color: #6c757d;
+}
+
+.navigation-buttons .btn-secondary:hover {
+  background-color: #5a6268;
+}

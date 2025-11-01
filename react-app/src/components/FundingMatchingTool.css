@@ -1,0 +1,129 @@
+.funding-matching-tool-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.funding-matching-tool-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.funding-matching-tool-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.quick-feasibility-checker {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.quick-feasibility-checker h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.quick-feasibility-checker .score-display {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.quick-feasibility-checker .score-high {
+  background-color: #d4edda;
+  color: #28a745;
+}
+
+.quick-feasibility-checker .score-low {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.warning-message {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.funding-search-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.funding-search-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.funding-search-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.funding-search-form .form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.funding-search-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.funding-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.funding-option-card {
+  background-color: #e6f7ff; /* Light blue for funding options */
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.funding-option-card h4 {
+  color: #007bff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.funding-option-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.funding-option-card button {
+  width: auto;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  margin-top: 10px;
+  float: right; /* Align button to the right */
+}

@@ -1,0 +1,141 @@
+.community-forum-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.community-forum-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.community-forum-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.forum-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.forum-filters select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.new-post-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.new-post-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.new-post-section .form-group {
+  margin-bottom: 15px;
+}
+
+.new-post-section .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.new-post-section .form-group input[type="text"],
+.new-post-section .form-group textarea,
+.new-post-section .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.new-post-section button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.post-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  text-align: left;
+  position: relative;
+}
+
+.post-card h4 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.post-card .post-meta {
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  margin: 5px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.post-replies {
+  font-size: 0.9em;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.post-card .btn-small {
+  padding: 5px 10px;
+  font-size: 0.8em;
+  float: right;
+  margin-top: 5px;
+}
+
+/* Mobile adjustments */
+@media (min-width: 480px) {
+  .forum-filters {
+    justify-content: space-between;
+  }
+  .post-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
